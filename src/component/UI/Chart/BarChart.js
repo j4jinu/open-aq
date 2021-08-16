@@ -17,7 +17,6 @@ const BarChart = (props) => {
 								backgroundColor: "#349eeb",
 							},
 						],
-						backgroundColor: "red",
 					}}
 					width={100}
 					height={40}
