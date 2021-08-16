@@ -10,7 +10,13 @@ const BarChart = (props) => {
 				<Bar
 					data={{
 						labels: props.labels,
-						datasets: [{ label: "# pollution", data: props.datasets }],
+						datasets: [
+							{
+								label: "# pollution",
+								data: props.datasets,
+								backgroundColor: "#349eeb",
+							},
+						],
 						backgroundColor: "red",
 					}}
 					width={100}
